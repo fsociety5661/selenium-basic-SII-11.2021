@@ -7,11 +7,13 @@ public class MyFirstTest {
 
     @Test
     public void shouldPass() {
+        System.out.println("I will pass");
         Assert.assertEquals(1, 1);
     }
 
     @Test
     public void shouldFail() {
+        System.out.println("I will fail");
         Assert.assertEquals(1, 2);
     }
 
